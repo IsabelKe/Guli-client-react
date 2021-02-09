@@ -50,7 +50,7 @@ export default class Login extends Component {
     
     render() {
             //check if the user already login
-        if (memoryUtils.user.id) { 
+        if (memoryUtils.user.username) { 
             //exists, go to the home page
             return <Redirect to='/'/>
         }
